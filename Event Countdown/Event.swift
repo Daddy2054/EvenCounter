@@ -14,10 +14,10 @@ struct Event: Comparable, Identifiable, Hashable {
     var title: String
     var date: Date
     var textColor: Color
-}
-func < (lhs: Event, rhs: Event) -> Bool {
-    lhs.date < rhs.date
-}
+    
+    static func < (lhs: Event, rhs: Event) -> Bool {
+        lhs.date < rhs.date
+    }}
 
 extension Event {
     static var all: [Event] = [

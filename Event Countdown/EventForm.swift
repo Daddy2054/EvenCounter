@@ -30,7 +30,7 @@ struct EventForm: View {
                 }
             }
             
-            .navigationTitle(event.title.isEmpty ? "New Event" : "Edit Event")
+            .navigationTitle(event.title.isEmpty ? "Add Event" : "Edit \(event.title)")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button("Save") {

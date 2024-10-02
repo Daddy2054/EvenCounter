@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0F08C4F72C7CE79300321E76 /* Event_CountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F08C4F62C7CE79300321E76 /* Event_CountdownApp.swift */; };
-		0F08C4F92C7CE79300321E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F08C4F82C7CE79300321E76 /* ContentView.swift */; };
 		0F08C4FB2C7CE79400321E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F08C4FA2C7CE79400321E76 /* Assets.xcassets */; };
 		0F08C4FE2C7CE79400321E76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F08C4FD2C7CE79400321E76 /* Preview Assets.xcassets */; };
 		0F08C5052C7CE88200321E76 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F08C5042C7CE88200321E76 /* Event.swift */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		0F08C4F32C7CE79300321E76 /* Event Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F08C4F62C7CE79300321E76 /* Event_CountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event_CountdownApp.swift; sourceTree = "<group>"; };
-		0F08C4F82C7CE79300321E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F08C4FA2C7CE79400321E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F08C4FD2C7CE79400321E76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F08C5042C7CE88200321E76 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				0F08C4F62C7CE79300321E76 /* Event_CountdownApp.swift */,
-				0F08C4F82C7CE79300321E76 /* ContentView.swift */,
 				0F08C5042C7CE88200321E76 /* Event.swift */,
 				0F08C5062C7CEB8400321E76 /* EventRow.swift */,
 				0F08C5082C7CF94B00321E76 /* EventsView.swift */,
@@ -149,7 +146,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F08C4F92C7CE79300321E76 /* ContentView.swift in Sources */,
 				0F08C5092C7CF94B00321E76 /* EventsView.swift in Sources */,
 				0F08C5052C7CE88200321E76 /* Event.swift in Sources */,
 				0F08C4F72C7CE79300321E76 /* Event_CountdownApp.swift in Sources */,

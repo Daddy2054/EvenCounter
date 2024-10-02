@@ -25,7 +25,6 @@ struct EventRow: View {
                 .font(.title2)
                 .foregroundColor(.secondary)
         }
-       // .padding()
         .onAppear(perform: updateWhenDate)
         .onReceive(timer) { _ in
             updateWhenDate()
